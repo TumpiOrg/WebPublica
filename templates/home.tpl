@@ -28,9 +28,9 @@
                     <h1>Tumpi Android</h1>
                     <p class="lead">
                         ¡Aquí tienes el Tumpi para Android!<br>
-                        Conectate al tumpi de un amigo o crea el tuyo propio donde quieras gracias a la movilidad que ofrece tu smartphone.
+                        Conectate al Tumpi de un amigo o crea el tuyo propio donde quieras gracias a la movilidad que ofrece tu smartphone.
                     </p>
-                    <p class="lead espaciado">En <a href="reproductorAndroid.php">esta página</a> encontraras el manual para la aplicación por si tienes algun problema, aun así, si tienes alguna duda contacta con nosotros a <a href="mailto:support@tumpi.net">support@tumpi.net</a></p>
+                    <p class="lead espaciado">En <a href="index.php?reproductorAndroid">esta página</a> encontraras el manual para la aplicación por si tienes algun problema, aun así, si tienes alguna duda contacta con nosotros a <a href="mailto:support@tumpi.net">support@tumpi.net</a></p>
                     <p class="">Próximamente en <img alt="Android app on Google Play" style="position: inherit;height:45px;min-width:0px;min-height:0px;" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" /></p>
                     <!-- link de la imagen cuando este subida: https://play.google.com/store/apps/details?id=Tumpi -->
                 </div>
@@ -41,9 +41,8 @@
             <div class="container">
                 <div class="carousel-caption">
                     <h1>Crea tu Tumpi en el PC</h1>
-                    <p class="lead">¡¡Esta es nuestra aplicacion para Escritorio!! Aprovecha esta apliación para poner música en las fiestas que hagas en casa ó en tu garito. Publica tus listas y... ¡A disfrutar!! </p>
-                    <p class="lead espaciado">Está hecha en Java, por lo funciona en todos los sistemas operativos, por ahora tenemos ciertos problemitas con MAC, pero es algo en lo que estamos trabajando.</p>
-                    <p class="">Próximamente en esta web</p>
+                    <p class="lead">¡¡Esta es nuestra aplicación para Escritorio!! Aprovecha esta apliación para poner música en tus fiestas en casa ó en tu garito. Publica tus listas y... ¡A disfrutar! </p>
+                    <p class="lead espaciado">Tumpi es multiplataforma, conectate y/o crea un Tumpi desde Windows, Linux, o tu smarthphone y, proximamente desde Macintosh y la Web!</p>
                 </div>
             </div>
         </div>
@@ -52,8 +51,8 @@
             <div class="container">
                 <div class="carousel-caption">
                     <h1>Sobre Nosotros</h1>
-                    <p class="lead">Nosotros somos un grupo de 5 estudiantes de 4º de Ingeniera Informatica, que nos juntamos para desarrollar la magnífica apliación, Tumpi</p>
-                    <p class="lead espaciado">Todos nuestros esfuerzos y nuestro poco tiempo libre han dado sus frutos en esta aplicación, es nuestra primera "Gran aplicación", y la estamos desarrollando para aprender y para el disfrute de todos, por lo que si veis cualquier bug, o algo que sea mejorable, no dudeis en mandarnos un correo a: info@tumpi.net</p>
+                    <p class="lead">Somos un grupo de cinco estudiantes de 4º de Ingeniería Informática, nos encanta programar y desarrollar sistemas y aplicaciones.</p>
+                    <p class="lead espaciado">Todos nuestros esfuerzos y nuestro poco tiempo libre han dado sus frutos en esta aplicación, es nuestra primera "Gran aplicación", y la estamos desarrollando para aprender y para el disfrute de todos, por lo que si veis cualquier "bug", o algo que sea mejorable, no dudeis en mandarnos un correo a: info@tumpi.net</p>
                 </div>
             </div>
         </div>
