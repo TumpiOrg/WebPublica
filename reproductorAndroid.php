@@ -1,5 +1,5 @@
 <?php
 	include("inc/header.php");
-	include("tumpi/reproductorAndroid.html");
+	include("html/reproductorAndroid.html");
 	include("inc/footer.php");
 ?>

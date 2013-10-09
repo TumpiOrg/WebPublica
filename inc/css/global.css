@@ -36,16 +36,16 @@
 	#seleccionado {
       color: white;
     }
-	
+
 	.bloqueCompleto {
 		width: 100%;
 	}
-	
+
 	.enmarcado {
 		padding-top:40px;
 		padding-bottom:40px;
 	}
-	
+
 	.espaciadoVertical {
 		margin-top: 100px;
 	}
@@ -53,7 +53,7 @@
 	.gris {
 		background-color: #dddddd;
 	}
-	
+
 	.azul {
 		background-color: #5c94ee;
 	}
@@ -61,30 +61,30 @@
 	.rojo {
 		background-color: #e56e52;
 	}
-	
+
 	.celeste {
 		background-color: #aaf2e6;
 	}
-	
+
 	.amarillo{
 		background-color: #cde96c;
 	}
-	
+
 	.naranja {
 		background-color: #f5bc5b;
 	}
-	
+
 	.verde {
 		background-color: #7bdf6c;
 	}
-	
+
 	.imagen {
 		width: 100px;
 		height: 120px;
 		float: left;
 		margin-right: 20px;
 	}
-	
+
 	.titulo {
 		text-align:center;
 		margin-bottom: 40px;
@@ -95,7 +95,7 @@
       font-size: 16px;
       font-weight: bold;
       text-shadow: 0 -1px 0 rgba(0,0,0,.5);
-      -webkit-user-select: none; /* Chrome/Safari */        
+      -webkit-user-select: none; /* Chrome/Safari */
       -moz-user-select: none; /* Firefox */
       -ms-user-select: none; /* IE10+ */
     }
@@ -103,7 +103,7 @@
     /* Navbar links: increase padding for taller navbar */
     .navbar .nav > li > a {
       padding: 15px 20px;
-      -webkit-user-select: none; /* Chrome/Safari */        
+      -webkit-user-select: none; /* Chrome/Safari */
       -moz-user-select: none; /* Firefox */
       -ms-user-select: none; /* IE10+ */
     }

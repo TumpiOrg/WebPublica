@@ -1,1 +1,0 @@
-<?php	include("inc/header.php");	include("tumpi/reproductorPc.html");	include("inc/footer.php");?>

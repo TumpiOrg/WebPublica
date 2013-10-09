@@ -1,1 +1,1 @@
-<?php	include("inc/header.php");	include("tumpi/quienesSomos.html");	include("inc/footer.php");?>
+<?php	include("inc/header.php");	include("html/quienesSomos.html");	include("inc/footer.php");?>

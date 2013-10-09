@@ -18,9 +18,9 @@
 		<link href="libs/bootstrap/css/bootstrap.css" rel="stylesheet">
 		<link href="libs/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
 		<link href="inc/css/global.css" rel="stylesheet" type="text/css" media="screen">
-		
+
 		<link href="inc/css/prueba_less.css" rel="stylesheet" type="text/css">
-	
+
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="../assets/js/html5shiv.js"></script>
@@ -52,7 +52,7 @@
 		<script src="libs/bootstrap/js/bootstrap-carousel.js"></script>
 		<script src="libs/bootstrap/js/bootstrap-typeahead.js"></script>
 		<script src="libs/holder.js"></script>
-		
+
 		<!-- Esto es para tener Less del lado del cliente. Sirve por si pasara algo como remedio alternativo -->
 		<!-- script src="libs/less/less-1.3.3.min.js"></script -->
 	</head>
