@@ -1,0 +1,380 @@
+/* GLOBAL STYLES
+    -------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+      color: #5a5a5a;
+    }
+
+
+
+    /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+    /* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      margin-top: 20px;
+      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+    }
+    .navbar-wrapper .navbar {
+
+    }
+
+    /* Remove border and change up box shadow for more contrast */
+    .navbar .navbar-inner {
+      border: 0;
+      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+              box-shadow: 0 2px 10px rgba(0,0,0,.25);
+    }
+
+	#seleccionado {
+      color: white;
+    }
+	
+	.bloqueCompleto {
+		width: 100%;
+	}
+	
+	.enmarcado {
+		padding-top:40px;
+		padding-bottom:40px;
+	}
+	
+	.espaciadoVertical {
+		margin-top: 100px;
+	}
+
+	.gris {
+		background-color: #dddddd;
+	}
+	
+	.azul {
+		background-color: #5c94ee;
+	}
+
+	.rojo {
+		background-color: #e56e52;
+	}
+	
+	.celeste {
+		background-color: #aaf2e6;
+	}
+	
+	.amarillo{
+		background-color: #cde96c;
+	}
+	
+	.naranja {
+		background-color: #f5bc5b;
+	}
+	
+	.verde {
+		background-color: #7bdf6c;
+	}
+	
+	.imagen {
+		width: 100px;
+		height: 120px;
+		float: left;
+		margin-right: 20px;
+	}
+	
+	.titulo {
+		text-align:center;
+		margin-bottom: 40px;
+	}
+    /* Downsize the brand/project name a bit */
+    .navbar .brand {
+      padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+      font-size: 16px;
+      font-weight: bold;
+      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+      -webkit-user-select: none; /* Chrome/Safari */        
+      -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* IE10+ */
+    }
+
+    /* Navbar links: increase padding for taller navbar */
+    .navbar .nav > li > a {
+      padding: 15px 20px;
+      -webkit-user-select: none; /* Chrome/Safari */        
+      -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* IE10+ */
+    }
+
+    /* Offset the responsive button for proper vertical alignment */
+    .navbar .btn-navbar {
+      margin-top: 10px;
+    }
+
+    #clienteAndroid:hover {
+      background-image: linear-gradient(bottom, rgb(27,125,31) 4%, rgba(29,117,20, 0) 30%);
+      background-image: -o-linear-gradient(bottom, rgb(27,125,31) 4%, rgba(29,117,20, 0) 30%);
+      background-image: -moz-linear-gradient(bottom, rgb(27,125,31) 4%, rgba(29,117,20, 0) 30%);
+      background-image: -webkit-linear-gradient(bottom, rgb(27,125,31) 4%, rgba(29,117,20, 0) 30%);
+      background-image: -ms-linear-gradient(bottom, rgb(27,125,31) 4%, rgba(29,117,20, 0) 30%);
+    }
+
+    #clienteAndroid:active {
+      background-image: linear-gradient(bottom, rgb(27,125,31) 4%, rgba(29,117,20, 0) 70%);
+      background-image: -o-linear-gradient(bottom, rgb(27,125,31) 4%, rgba(29,117,20, 0) 70%);
+      background-image: -moz-linear-gradient(bottom, rgb(27,125,31) 4%, rgba(29,117,20, 0) 70%);
+      background-image: -webkit-linear-gradient(bottom, rgb(27,125,31) 4%, rgba(29,117,20, 0) 70%);
+      background-image: -ms-linear-gradient(bottom, rgb(27,125,31) 4%, rgba(29,117,20, 0) 70%);
+    }
+
+    #servidorAndroid:hover{
+      background-image: linear-gradient(bottom, rgb(228,170,10) 4%, rgba(173,128,16, 0) 30%);
+      background-image: -o-linear-gradient(bottom, rgb(228,170,10) 4%, rgba(173,128,16, 0) 30%);
+      background-image: -moz-linear-gradient(bottom, rgb(228,170,10) 4%, rgba(173,128,16, 0) 30%);
+      background-image: -webkit-linear-gradient(bottom, rgb(228,170,10) 4%, rgba(173,128,16, 0) 30%);
+      background-image: -ms-linear-gradient(bottom, rgb(228,170,10) 4%, rgba(173,128,16, 0) 30%);
+    }
+
+    #servidorAndroid:active{
+      background-image: linear-gradient(bottom, rgb(228,170,10) 4%, rgba(173,128,16, 0) 70%);
+      background-image: -o-linear-gradient(bottom, rgb(228,170,10) 4%, rgba(173,128,16, 0) 70%);
+      background-image: -moz-linear-gradient(bottom, rgb(228,170,10) 4%, rgba(173,128,16, 0) 70%);
+      background-image: -webkit-linear-gradient(bottom, rgb(228,170,10) 4%, rgba(173,128,16, 0) 70%);
+      background-image: -ms-linear-gradient(bottom, rgb(228,170,10) 4%, rgba(173,128,16, 0) 70%);
+    }
+
+    #servidorPC:hover{
+      background-image: linear-gradient(bottom, rgb(170,170,170) 4%, rgba(125,125,125, 0) 30%);
+      background-image: -o-linear-gradient(bottom, rgb(170,170,170) 4%, rgba(125,125,125, 0) 30%);
+      background-image: -moz-linear-gradient(bottom, rgb(170,170,170) 4%, rgba(125,125,125, 0) 30%);
+      background-image: -webkit-linear-gradient(bottom, rgb(170,170,170) 4%, rgba(125,125,125, 0) 30%);
+      background-image: -ms-linear-gradient(bottom, rgb(170,170,170) 4%, rgba(125,125,125, 0) 30%);
+    }
+
+    #servidorPC:active{
+      background-image: linear-gradient(bottom, rgb(170,170,170) 4%, rgba(125,125,125, 0) 70%);
+      background-image: -o-linear-gradient(bottom, rgb(170,170,170) 4%, rgba(125,125,125, 0) 70%);
+      background-image: -moz-linear-gradient(bottom, rgb(170,170,170) 4%, rgba(125,125,125, 0) 70%);
+      background-image: -webkit-linear-gradient(bottom, rgb(170,170,170) 4%, rgba(125,125,125, 0) 70%);
+      background-image: -ms-linear-gradient(bottom, rgb(170,170,170) 4%, rgba(125,125,125, 0) 70%);
+    }
+
+    #quienesSomos:hover{
+      background-image: linear-gradient(bottom, rgb(187,32,31) 4%, rgba(138,18,18, 0) 30%);
+      background-image: -o-linear-gradient(bottom, rgb(187,32,31) 4%, rgba(138,18,18, 0) 30%);
+      background-image: -moz-linear-gradient(bottom, rgb(187,32,31) 4%, rgba(138,18,18, 0) 30%);
+      background-image: -webkit-linear-gradient(bottom, rgb(187,32,31) 4%, rgba(138,18,18, 0) 30%);
+      background-image: -ms-linear-gradient(bottom, rgb(187,32,31) 4%, rgba(138,18,18, 0) 30%);
+    }
+
+    #quienesSomos:active{
+      background-image: linear-gradient(bottom, rgb(187,32,31) 4%, rgba(138,18,18, 0) 70%);
+      background-image: -o-linear-gradient(bottom, rgb(187,32,31) 4%, rgba(138,18,18, 0) 70%);
+      background-image: -moz-linear-gradient(bottom, rgb(187,32,31) 4%, rgba(138,18,18, 0) 70%);
+      background-image: -webkit-linear-gradient(bottom, rgb(187,32,31) 4%, rgba(138,18,18, 0) 70%);
+      background-image: -ms-linear-gradient(bottom, rgb(187,32,31) 4%, rgba(138,18,18, 0) 70%);
+    }
+
+    /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 60px;
+      margin-top: 100px;
+    }
+
+    .carousel .container {
+      position: relative;
+      z-index: 9;
+    }
+
+    .carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+    }
+
+    .carousel .item {
+      height: 500px;
+    }
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 500px;
+    }
+
+    .carousel-caption {
+      background-color: transparent;
+      position: static;
+      max-width: 900px;
+      padding: 0 20px;
+      margin-top: 70px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+
+    .espaciado{
+      padding-bottom: 20px;
+    }
+
+    .lead{
+      padding-top: 30px;
+    }
+
+    .carousel-caption h1{
+      font-size: 65px;
+    }
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+
+    .target li:hover{
+      cursor: pointer;
+    }
+
+
+
+    /* MARKETING CONTENT
+    -------------------------------------------------- */
+
+    /* Center align the text within the three columns below the carousel */
+    .marketing .span4 {
+      text-align: center;
+    }
+    .marketing h2 {
+      font-weight: normal;
+    }
+    .marketing .span4 p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+
+    /* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+      }
+      .navbar-inner {
+        border-radius: 0;
+        margin: -20px 0;
+      }
+
+      .carousel .item {
+        height: 500px;
+      }
+      .carousel img {
+        width: auto;
+        height: 500px;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+    }
+
+
+    @media (max-width: 767px) {
+
+      .navbar-inner {
+        margin: -20px;
+      }
+
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+
+      .carousel .container {
+
+      }
+      .carousel .item {
+        height: 450px;
+      }
+      .carousel img {
+        height: 450px;
+      }
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 100px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+    }

@@ -1,0 +1,1 @@
+<?php	include("inc/header.php");	include("tumpi/quienesSomos.html");	include("inc/footer.php");?>
