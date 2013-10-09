@@ -1,1 +1,0 @@
-<?php	include("inc/header.php");	include("html/quienesSomos.html");	include("inc/footer.php");?>
