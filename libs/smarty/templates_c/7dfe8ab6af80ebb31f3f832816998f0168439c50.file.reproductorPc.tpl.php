@@ -1,25 +1,25 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2013-10-09 17:01:48
+<?php /* Smarty version Smarty-3.1.15, created on 2013-10-24 13:05:51
          compiled from "templates/reproductorPc.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:173832825052556fdcbdb497-45464856%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:7456420505268ff0f98d995-75291927%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '7dfe8ab6af80ebb31f3f832816998f0168439c50' => 
     array (
       0 => 'templates/reproductorPc.tpl',
-      1 => 1381330828,
+      1 => 1382042561,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '173832825052556fdcbdb497-45464856',
+  'nocache_hash' => '7456420505268ff0f98d995-75291927',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_52556fdcc1b855_91789674',
+  'unifunc' => 'content_5268ff0f9ede15_77820991',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52556fdcc1b855_91789674')) {function content_52556fdcc1b855_91789674($_smarty_tpl) {?><div class="gris bloqueCompleto espaciadoVertical">
+<?php if ($_valid && !is_callable('content_5268ff0f9ede15_77820991')) {function content_5268ff0f9ede15_77820991($_smarty_tpl) {?><div class="gris bloqueCompleto espaciadoVertical">
     <div class="container enmarcado">
         <h1 class="titulo">Tumpi para nuestro escritorio</h1>
         <div class="container-fluid">

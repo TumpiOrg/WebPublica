@@ -1,25 +1,25 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2013-10-09 16:57:56
+<?php /* Smarty version Smarty-3.1.15, created on 2013-10-23 13:25:40
          compiled from "templates/home.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:182232614852556ef47f4480-61085130%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2715177035267b2349eb704-69409547%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '44473f1c7779fd2764925cf1eff848b4714c81c4' => 
     array (
       0 => 'templates/home.tpl',
-      1 => 1381330588,
+      1 => 1382042561,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '182232614852556ef47f4480-61085130',
+  'nocache_hash' => '2715177035267b2349eb704-69409547',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_52556ef481be73_27109127',
+  'unifunc' => 'content_5267b2349fc777_70696273',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52556ef481be73_27109127')) {function content_52556ef481be73_27109127($_smarty_tpl) {?><div id="carousel_home" class="carousel slide">
+<?php if ($_valid && !is_callable('content_5267b2349fc777_70696273')) {function content_5267b2349fc777_70696273($_smarty_tpl) {?><div id="carousel_home" class="carousel slide">
     <ol class="carousel-indicators target">
         <li data-target="#carousel_home" data-slide-to="0" class="active"></li>
         <li data-target="#carousel_home" data-slide-to="1"></li>
@@ -49,9 +49,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     <h1>Tumpi Android</h1>
                     <p class="lead">
                         ¡Aquí tienes el Tumpi para Android!<br>
-                        Conectate al tumpi de un amigo o crea el tuyo propio donde quieras gracias a la movilidad que ofrece tu smartphone.
+                        Conectate al Tumpi de un amigo o crea el tuyo propio donde quieras gracias a la movilidad que ofrece tu smartphone.
                     </p>
-                    <p class="lead espaciado">En <a href="reproductorAndroid.php">esta página</a> encontraras el manual para la aplicación por si tienes algun problema, aun así, si tienes alguna duda contacta con nosotros a <a href="mailto:support@tumpi.net">support@tumpi.net</a></p>
+                    <p class="lead espaciado">En <a href="index.php?reproductorAndroid">esta página</a> encontraras el manual para la aplicación por si tienes algun problema, aun así, si tienes alguna duda contacta con nosotros a <a href="mailto:support@tumpi.net">support@tumpi.net</a></p>
                     <p class="">Próximamente en <img alt="Android app on Google Play" style="position: inherit;height:45px;min-width:0px;min-height:0px;" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" /></p>
                     <!-- link de la imagen cuando este subida: https://play.google.com/store/apps/details?id=Tumpi -->
                 </div>
@@ -62,9 +62,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <div class="container">
                 <div class="carousel-caption">
                     <h1>Crea tu Tumpi en el PC</h1>
-                    <p class="lead">¡¡Esta es nuestra aplicacion para Escritorio!! Aprovecha esta apliación para poner música en las fiestas que hagas en casa ó en tu garito. Publica tus listas y... ¡A disfrutar!! </p>
-                    <p class="lead espaciado">Está hecha en Java, por lo funciona en todos los sistemas operativos, por ahora tenemos ciertos problemitas con MAC, pero es algo en lo que estamos trabajando.</p>
-                    <p class="">Próximamente en esta web</p>
+                    <p class="lead">¡¡Esta es nuestra aplicación para Escritorio!! Aprovecha esta apliación para poner música en tus fiestas en casa ó en tu garito. Publica tus listas y... ¡A disfrutar! </p>
+                    <p class="lead espaciado">Tumpi es multiplataforma, conectate y/o crea un Tumpi desde Windows, Linux, o tu smarthphone y, proximamente desde Macintosh y la Web!</p>
                 </div>
             </div>
         </div>
@@ -73,8 +72,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <div class="container">
                 <div class="carousel-caption">
                     <h1>Sobre Nosotros</h1>
-                    <p class="lead">Nosotros somos un grupo de 5 estudiantes de 4º de Ingeniera Informatica, que nos juntamos para desarrollar la magnífica apliación, Tumpi</p>
-                    <p class="lead espaciado">Todos nuestros esfuerzos y nuestro poco tiempo libre han dado sus frutos en esta aplicación, es nuestra primera "Gran aplicación", y la estamos desarrollando para aprender y para el disfrute de todos, por lo que si veis cualquier bug, o algo que sea mejorable, no dudeis en mandarnos un correo a: info@tumpi.net</p>
+                    <p class="lead">Somos un grupo de cinco estudiantes de 4º de Ingeniería Informática, nos encanta programar y desarrollar sistemas y aplicaciones.</p>
+                    <p class="lead espaciado">Todos nuestros esfuerzos y nuestro poco tiempo libre han dado sus frutos en esta aplicación, es nuestra primera "Gran aplicación", y la estamos desarrollando para aprender y para el disfrute de todos, por lo que si veis cualquier "bug", o algo que sea mejorable, no dudeis en mandarnos un correo a: info@tumpi.net</p>
                 </div>
             </div>
         </div>

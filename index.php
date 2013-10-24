@@ -12,17 +12,18 @@
     $smarty->config_dir = SMARTY_DIR . 'configs/';
     $smarty->cache_dir = SMARTY_DIR . 'cache/';
 
-    $page_name = $_GET['page'];
-    if(!isset($page_name)) {
-        $page_name = 'home';
+    $page_name = 'home';
+    if(isset($_GET['page'])) {
+        $page_name = $_GET['page'];
     }
+
     $smarty->assign('page', $page_name);
 
     $navbar = array(
-        'reproductorAndroid'  => ['texto'=>'Tumpi Movil',  'url'=>'?page=reproductorAndroid'],
-        'reproductorPc' => ['texto'=>'Reproductor PC', 'url'=>'?page=reproductorPc'],
-        'quienesSomos' => ['texto'=>'Sobre nosotros', 'url'=>'?page=quienesSomos'],
-    );
+		array('texto' => 'Tumpi Móvil', 'url' => '?page=reproductorAndroid'),
+		array('texto' => 'Reproductor PC', 'url' => '?page=reproductorPc'),
+		array('texto' => 'Sobre Nosotros', 'url' => '?page=quienesSomos')
+	);
     $smarty->assign('navbar', $navbar);
 
     $smarty->display('index.tpl');
