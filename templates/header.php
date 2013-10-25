@@ -9,13 +9,9 @@
         <link href="libs/bootstrap/css/bootstrap.css" rel="stylesheet">
         <link href="libs/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
         <link href="inc/css/global.css" rel="stylesheet" type="text/css" media="screen">
-
+        <link href='http://fonts.googleapis.com/css?family=Oxygen:400' rel='stylesheet' type='text/css'>
         <link href="inc/css/prueba_less.css" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="../assets/js/html5shiv.js"></script>
-    <![endif]-->
+        <link href="libs/lightbox/css/lightbox.css" rel="stylesheet" />
 
         <style id="holderjs-style" type="text/css">
         .holderjs-fluid
@@ -31,6 +27,7 @@
         <!-- script src="libs/less/less-1.3.3.min.js"></script -->
 		
 		<script src="libs/jquery/jQuery.js"></script>
+        <script src="libs/lightbox/js/lightbox-2.6.min.js"></script>
         <script src="libs/bootstrap/js/bootstrap-transition.js"></script>
         <script src="libs/bootstrap/js/bootstrap-alert.js"></script>
         <script src="libs/bootstrap/js/bootstrap-modal.js"></script>

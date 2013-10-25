@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2013-10-25 10:36:04
+<?php /* Smarty version Smarty-3.1.15, created on 2013-10-25 15:31:05
          compiled from "templates\reproductorAndroid.php" */ ?>
 <?php /*%%SmartyHeaderCode:20189526a499460e901-38610461%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'c64a5c822039ef49f9b5f05191da945c654827d0' => 
     array (
       0 => 'templates\\reproductorAndroid.php',
-      1 => 1382696357,
+      1 => 1382714973,
       2 => 'file',
     ),
   ),
@@ -15,17 +15,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.15',
   'unifunc' => 'content_526a499465cb21_52735823',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_526a499465cb21_52735823')) {function content_526a499465cb21_52735823($_smarty_tpl) {?><div class="espaciadoVertical bloqueCompleto">
     <div class="container enmarcado">
-        <h1 class="titulo">Tumpi Movil</h3>
+        <h1 class="titulo">Tumpi Android</h3>
         <div class="container-fluid">
             <div class="row-fluid">
                 <div class="span9">
-                  <p class="lead">Nuestra aplicacion para android ya esta aqui!, en esta seccion encontraras un tutorial de como funciona nuestra aplicacion
+                  <p class="lead">¡Tumpi para Android ya está aquí!, en esta seccion encontraras un tutorial de como funciona nuestra aplicacion
                   por si tienes el mas minimo problema, si aun asi tienes algun problema, por favor contactanos.</p>
                   <p class="lead">Aqui encontramos las primeras dos opciones, es el inicio de nuestra aplicacion, simplemente tienes que elegir, si te quieres
                   unir a uno ya creado para votar, y si quieres crear tu uno que seas tu el que ponga las canciones!</p>

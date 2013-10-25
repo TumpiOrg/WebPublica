@@ -20,9 +20,9 @@
     $smarty->assign('page', $page_name);
 
     $navbar = array(
-		"reproductorAndroid" => array('texto' => 'Tumpi Móvil', 'url' => '?page=reproductorAndroid'),
-		"reproductorPc" => array('texto' => 'Reproductor PC', 'url' => '?page=reproductorPc'),
-		"quienesSomos" => array('texto' => 'Sobre Nosotros', 'url' => '?page=quienesSomos')
+		"reproductorAndroid" => array('texto' => 'Tumpi Android', 'url' => '?page=reproductorAndroid'),
+		"reproductorPc" => array('texto' => 'Tumpi PC', 'url' => '?page=reproductorPc'),
+		"quienesSomos" => array('texto' => 'Sobre nosotros', 'url' => '?page=quienesSomos')
 	);
     $smarty->assign('navbar', $navbar);
 

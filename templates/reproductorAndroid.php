@@ -1,10 +1,10 @@
 <div class="espaciadoVertical bloqueCompleto">
     <div class="container enmarcado">
-        <h1 class="titulo">Tumpi Movil</h3>
+        <h1 class="titulo">Tumpi Android</h3>
         <div class="container-fluid">
             <div class="row-fluid">
                 <div class="span9">
-                  <p class="lead">Nuestra aplicacion para android ya esta aqui!, en esta seccion encontraras un tutorial de como funciona nuestra aplicacion
+                  <p class="lead">¡Tumpi para Android ya está aquí!, en esta seccion encontraras un tutorial de como funciona nuestra aplicacion
                   por si tienes el mas minimo problema, si aun asi tienes algun problema, por favor contactanos.</p>
                   <p class="lead">Aqui encontramos las primeras dos opciones, es el inicio de nuestra aplicacion, simplemente tienes que elegir, si te quieres
                   unir a uno ya creado para votar, y si quieres crear tu uno que seas tu el que ponga las canciones!</p>

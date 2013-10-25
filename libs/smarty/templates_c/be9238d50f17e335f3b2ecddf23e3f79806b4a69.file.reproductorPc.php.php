@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2013-10-25 10:36:05
+<?php /* Smarty version Smarty-3.1.15, created on 2013-10-25 15:29:48
          compiled from "templates\reproductorPc.php" */ ?>
 <?php /*%%SmartyHeaderCode:12251526a499538a5c0-88061216%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'be9238d50f17e335f3b2ecddf23e3f79806b4a69' => 
     array (
       0 => 'templates\\reproductorPc.php',
-      1 => 1382696935,
+      1 => 1382714974,
       2 => 'file',
     ),
   ),
@@ -15,20 +15,22 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.15',
   'unifunc' => 'content_526a49953d4958_78841835',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_526a49953d4958_78841835')) {function content_526a49953d4958_78841835($_smarty_tpl) {?><div class="gris bloqueCompleto espaciadoVertical">
     <div class="container enmarcado">
-        <h1 class="titulo">Tumpi para nuestro escritorio</h1>
+        <h1 class="titulo">Tumpi en tu PC</h1>
         <div class="container-fluid">
             <div class="row-fluid">
                 <div class="span4">
                   <img src="imgs/tutorial/tumpipc.png" />
                 </div>
                 <div class="span8">
-                    <p class="lead">Aqui entontraras una guia de uso para tu aplicacion de Tumpi, paso a paso, como usarlo, por si tienes alguna duda</p>
+                    <p class="lead">
+                    ¡<a href="app/TUMPIPC.zip">Descarga Tumpi</a>, y comienza a usarlo en tus fiestas!
+                    Y aquí tienes una guía de primeros pasos de Tumpi PC, por si no lo ves claro:</p>
                 </div>
             </div>
         </div>
@@ -40,13 +42,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <div class="container-fluid">
             <div class="row-fluid">
                 <div class="span8">
-                    <p class="lead">Para crear un tumpi y asi permitir que tus amigos voten tus canciones, vete a la pestaña que esta marcada en la imagen
-                    y pulsa para establecer un nombre del tumpi, en el momento en que lo hagas, te indicara arriba del todo que estas conectado, y el nombre
-                    con el que te has conectado (por si te olvidas, para que se lo puedas decir), con eso ya tus amigos se podran unir a tu tumpi!</p>
-                    <p class="lead">Esto no es obligatorio si lo unico que quieres es escuchar tus listas, hazlo solo cuando quieras que voten tus canciones.</p>
+                    <p class="lead">Para crear un Tumpi y así permitir que tus amigos voten tus canciones, vete a la pestaña que esta marcada en la imagen
+                    y pulsa para establecer un nombre del tumpi. A partir de este momento, estarás conectado a nuestro servidor, y en la barra superior aparecerá
+                     el nombre con el que te has conectado (por si lo olvidas :P). ¡Dile el nombre de tu Tumpi a tus amigos, y comenzad a votar canciones!</p>
+                    <p class="lead">Si no estás muy animado y no tienes muchas ganas de fiesta (todos tenemos días así, incluso semanas o meses), no hace falta que conectes, pero podrás escuchar tus listas igual.</p>
                 </div>
                 <div class="span4">
-                    <img src="imgs/tutorial/segundaPc.png" />
+                    <a href="imgs/tutorial/segundaPc.png" data-lightbox="segundaPc" title=""><img src="imgs/tutorial/segundaPc.png" /></a>
                 </div>
             </div>
         </div>
@@ -58,14 +60,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <div class="container-fluid">
             <div class="row-fluid">
                 <div class="span4">
-                    <img src="imgs/tutorial/listasPc.png" />
+                    <a href="imgs/tutorial/listasPc.png" data-lightbox="listasPc" title=""><img src="imgs/tutorial/listasPc.png" /></a>
                 </div>
                 <div class="span8">
-                <p class="lead">Para empezar, hay que crear unas listas de musica, puedes acerlo de diversas formas, lo mas practico si la abres por primera
-                vez, es que directamete añadas canciones (siguiente parte), asi el te pedira un nombre de la lista, y autamaticamente te la creara para dedirte
-                las canciones, sino simplemente tienes el boton de crear pestaña (como en todos los navegadores acuales, o sino en el menu de Listas (la imagen
-                te indica donde).</p>
-                <p class="lead">Para borrar, puedes hacerlo desde el menu, o sino al igual que en el navegador, pulsando el boton de la derecha de la pestaña.</p>
+                <p class="lead">Ya estás conectado, ¡pero sin canciones preparadas no puede comenzar la fiesta! 
+                        Antes tienes que crear al menos una lista de música, puedes hacerlo de diversas formas pero la más rápida es añadiendo canciones directamente (en el siguiente paso) y
+                        automáticamente te pedira un nombre para tu lista.
+                        Si no tienes tanta prisa, también puedes crear tus listas desde las pestañas (¡igual que en los navegadores web!), o desde el menú mostrado en la imagen.
+                </p>
+                <p class="lead">Si te has cansado de una lista y la quieres borrar, puedes hacerlo, igual que antes, desde las pestañas o desde el menú de la imagen. </p>
                 </div>
             </div>
         </div>
@@ -77,14 +80,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <div class="container-fluid">
             <div class="row-fluid">
                 <div class="span8">
-                    <p class="lead">Para añadir canciones, puedes ahcerlo pulsando doble-click en la primera fila de la tabla de tus listas, sino tambien
-                    tienes el boton de la carpeta (donde indica la imagen) que te permitira añadir las canciones, si aun asi no te gusta estas opciones,
-                    tambien puedes hacerlo desde el menu.</p>
-                    <p class="lead">Si lo que quieres es borrarlas (no te preocupes, no se borraran las canciones de tu ordenador, sino que las quitaras de
-                    la lista) puedes hacerlos seleccionandolas y pulsando la tecla supr, o sino el boton de la papelera, y siempre tendras la opcion en el menu.</p>
+                    <p class="lead">Quieres añadir la discografía de Rick Astley entera a la lista que acabas de crear, ¿cómo lo haces?. Fácil: Puedes hacer doble-click en
+                    la primera fila de la lista, hacer click en el botón de la carpeta, o seleccionar la opción en el menú de arriba. Elige en tu ordenador las canciones que
+                    quieras añadir, y pulsa Aceptar. </p>
+                    <p class="lead">Si lo que quieres es borrar algunas canciones (no te preocupes, no se borrarán tus preciados discos de Camela de tu ordenador, sólo de la lista)
+                    puedes hacerlo seleccionándolas y pulsando la tecla Supr, o pulsando el botón de la papelera, y para variar, también tendrás la opcion en el menú.</p>
                 </div>
                 <div class="span4">
-                    <img src="imgs/tutorial/cancionesPc.png" />
+                    <a href="imgs/tutorial/cancionesPc.png" data-lightbox="cancionesPc" title=""><img src="imgs/tutorial/cancionesPc.png" /></a>
                 </div>
             </div>
         </div>
@@ -96,13 +99,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <div class="container-fluid">
             <div class="row-fluid">
                 <div class="span4">
-                    <img src="imgs/tutorial/promocionarPc.png" />
+                <a href="imgs/tutorial/promocionarPc.png" data-lightbox="promocionarPc" title=""><img src="imgs/tutorial/promocionarPc.png" /></a>
                 </div>
                 <div class="span8">
-                    <p class="lead">Esta parte es la mas importante, es la parte que tus amigos veran para votar, y donde podras reproducir la musica,
-                    lo unico que tines que hacer, es seleccionar la pestaña de la lista que quieres promocionar, y pulsar la flecha (marcada en la imagen),
-                    haciendo esto, haras que la lista se "mueva" a la tabla de la derecha, donde te indicara los votos de cada cancion, luego te manejas con
-                    los botones del reproductor, que es igual que el de todos los reproductores.</p>
+                    <p class="lead">Esta parte es la más importante, el paso final. Ya tienes preparada tu lista de Rick Astley y Camela (allá tú y tus gustos), y quieres que comience a sonar
+                    y tus amigos puedan empezar a votar.
+                    Lo único que tienes que hacer, es seleccionar la pestaña de la lista que quieres promocionar, y pulsar la flecha (marcada en la imagen),
+                    haciendo esto harás que la lista se "mueva" a la tabla de la izquierda, donde podrás ir viendo los votos de cada cancion. Si luego no te votan Camela, ya es cosa tuya.
+                    Sólo te queda darle al Play, y ¡comienza tu fiesta!.
+                    </p>
                     <p class="lead">Tambien puedes hacerlo desde el menu, pulsas listas -> promocionar y se promocionara la lista que este seleccionada.</p>
                 </div>
             </div>
@@ -115,14 +120,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <div class="container-fluid">
             <div class="row-fluid">
                 <div class="span8">
-                    <p class="lead">Para los apasionados de la musica que el encante crear sus listas de reproduccion con sus millones de canciones, no te
-                    preocupes, que al cerrar la aplicacion tus listas y tus canciones no se perderan, tumpi guardara todas tus listas y sus canciones
-                    el solo, para que no te tengas que preocupar por nada, ¿que accidentalmente cierras la aplicacion?, sin preocupaciones, caundo la abras
-                    encontraras todas tus listas tal y como las dejaste antes de cerrar (la lista que tengas promocionada no se guardara, por lo que habra
-                    que volver a promocionarla).</p>
+                    <p class="lead">Si eres un apasionado de la musica y te encanta crear millones de listas de reproduccion con sus millones de canciones, no te
+                    preocupes, que al cerrar la aplicacion tus listas y tus canciones no se perderán. Tumpi guardará todas tus listas él solito, para que no te tengas que preocupar por nada,
+                     y cuando vuelvas a abrir la aplicación encontrarás todas tus listas tal y como las dejaste antes de cerrar.</p>
                 </div>
                 <div class="span4">
-                    <img src="imgs/tutorial/tumpipc.png" />
+                <a href="imgs/tutorial/tumpipc.png" data-lightbox="promocionarPc" title=""><img src="imgs/tutorial/tumpipc.png" /></a>
                 </div>
             </div>
         </div>
