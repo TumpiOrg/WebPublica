@@ -25,7 +25,7 @@
                     <p class="lead">Esto no es obligatorio si lo unico que quieres es escuchar tus listas, hazlo solo cuando quieras que voten tus canciones.</p>
                 </div>
                 <div class="span4">
-                    <img src="imgs/tutorial/segundapc.png" />
+                    <img src="imgs/tutorial/segundaPc.png" />
                 </div>
             </div>
         </div>
