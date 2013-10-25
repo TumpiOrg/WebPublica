@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2013-10-23 13:25:40
+<?php /* Smarty version Smarty-3.1.15, created on 2013-10-25 11:15:57
          compiled from "templates/home.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2715177035267b2349eb704-69409547%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '44473f1c7779fd2764925cf1eff848b4714c81c4' => 
     array (
       0 => 'templates/home.tpl',
-      1 => 1382042561,
+      1 => 1382692249,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.15',
   'unifunc' => 'content_5267b2349fc777_70696273',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5267b2349fc777_70696273')) {function content_5267b2349fc777_70696273($_smarty_tpl) {?><div id="carousel_home" class="carousel slide">
     <ol class="carousel-indicators target">
