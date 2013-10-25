@@ -31,7 +31,7 @@
                         Conectate al Tumpi de un amigo o crea el tuyo propio donde quieras gracias a la movilidad que ofrece tu smartphone.
                     </p>
                     <p class="lead espaciado">En <a href="index.php?reproductorAndroid">esta página</a> encontraras el manual para la aplicación por si tienes algun problema, aun así, si tienes alguna duda contacta con nosotros a <a href="mailto:support@tumpi.net">support@tumpi.net</a></p>
-                    <p class="">Próximamente en <img alt="Android app on Google Play" style="position: inherit;height:45px;min-width:0px;min-height:0px;" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" /></p>
+                    <p class=""><a href="https://play.google.com/store/apps/details?id=app.tumpi"><img alt="Android app on Google Play" style="position: inherit;height:45px;min-width:0px;min-height:0px;" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" /></a></p>
                     <!-- link de la imagen cuando este subida: https://play.google.com/store/apps/details?id=Tumpi -->
                 </div>
             </div>
@@ -43,6 +43,7 @@
                     <h1>Crea tu Tumpi en el PC</h1>
                     <p class="lead">¡¡Esta es nuestra aplicación para Escritorio!! Aprovecha esta apliación para poner música en tus fiestas en casa ó en tu garito. Publica tus listas y... ¡A disfrutar! </p>
                     <p class="lead espaciado">Tumpi es multiplataforma, conectate y/o crea un Tumpi desde Windows, Linux, o tu smarthphone y, proximamente desde Macintosh y la Web!</p>
+					<p class=""><a href="app/TUMPIPC.zip"> Descargalo aqui </a></p>
                 </div>
             </div>
         </div>

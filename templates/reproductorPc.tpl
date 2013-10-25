@@ -25,7 +25,7 @@
                     <p class="lead">Esto no es obligatorio si lo unico que quieres es escuchar tus listas, hazlo solo cuando quieras que voten tus canciones.</p>
                 </div>
                 <div class="span4">
-                    <img src="imgs/tutorial/tumpipc.png" />
+                    <img src="imgs/tutorial/segundapc.png" />
                 </div>
             </div>
         </div>
@@ -37,7 +37,7 @@
         <div class="container-fluid">
             <div class="row-fluid">
                 <div class="span4">
-                    <img src="imgs/tutorial/tumpipc.png" />
+                    <img src="imgs/tutorial/listasPc.png" />
                 </div>
                 <div class="span8">
                 <p class="lead">Para empezar, hay que crear unas listas de musica, puedes acerlo de diversas formas, lo mas practico si la abres por primera
@@ -63,7 +63,7 @@
                     la lista) puedes hacerlos seleccionandolas y pulsando la tecla supr, o sino el boton de la papelera, y siempre tendras la opcion en el menu.</p>
                 </div>
                 <div class="span4">
-                    <img src="imgs/tutorial/tumpipc.png" />
+                    <img src="imgs/tutorial/cancionesPc.png" />
                 </div>
             </div>
         </div>
@@ -75,7 +75,7 @@
         <div class="container-fluid">
             <div class="row-fluid">
                 <div class="span4">
-                    <img src="imgs/tutorial/tumpipc.png" />
+                    <img src="imgs/tutorial/promocionarPc.png" />
                 </div>
                 <div class="span8">
                     <p class="lead">Esta parte es la mas importante, es la parte que tus amigos veran para votar, y donde podras reproducir la musica,
