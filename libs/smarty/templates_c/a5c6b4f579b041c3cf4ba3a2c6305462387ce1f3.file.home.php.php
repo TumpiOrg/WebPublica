@@ -1,11 +1,31 @@
-<div id="carousel_home" class="carousel slide">
+<?php /* Smarty version Smarty-3.1.15, created on 2013-10-25 10:30:02
+         compiled from "templates\home.php" */ ?>
+<?php /*%%SmartyHeaderCode:8405526a482acd0700-88629922%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'a5c6b4f579b041c3cf4ba3a2c6305462387ce1f3' => 
+    array (
+      0 => 'templates\\home.php',
+      1 => 1382696910,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '8405526a482acd0700-88629922',
+  'function' => 
+  array (
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.15',
+  'unifunc' => 'content_526a482acd8401_01469938',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_526a482acd8401_01469938')) {function content_526a482acd8401_01469938($_smarty_tpl) {?><div id="carousel_home" class="carousel slide">
     <ol class="carousel-indicators target">
         <li data-target="#carousel_home" data-slide-to="0" class="active"></li>
         <li data-target="#carousel_home" data-slide-to="1"></li>
         <li data-target="#carousel_home" data-slide-to="2"></li>
         <!--li data-target="#carousel_home" data-slide-to="3"></li-->
     </ol>
-    <a id="carousel_button" href="javascript:changeCarouselState(true);"><img class="" src="imgs/general/pause.png" style="left:40px;top:20px;z-index:1;min-width:0px;min-height:0px;height:48px;display:inline;"></img></a>
     <div class="carousel-inner">
         <!-- div class="item active" >
             <img src="imgs/carrousell_home/slide-01.jpg" alt="">
@@ -62,25 +82,5 @@
     <a class="carousel-control right" href="#carousel_home" data-slide="next">›</a>
 </div>
 <script>
-    $("#carousel_home").carousel(
-    {
-        interval:10000,
-        pause:""
-    });
-    function changeCarouselState(state)
-    {
-        var elem=document.getElementById("carousel_button");
-        if(state)
-        {
-            $('#carousel_home').carousel('pause');
-            elem.href="javascript:changeCarouselState(false);";
-            elem.children[0].src="imgs/general/play.png";
-        }
-        else
-        {
-            $('#carousel_home').carousel('cycle');
-            elem.href="javascript:changeCarouselState(true);";
-            elem.children[0].src="imgs/general/pause.png";
-        }
-    }
-</script>
+    $("#carousel_home").carousel({ interval:10000 });
+</script><?php }} ?>

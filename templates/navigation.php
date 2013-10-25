@@ -9,15 +9,11 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                 </button>
-                <a class="brand seleccionado" id="" href="index.php?page=home">Tumpi</a>
+                <a class="brand" id="" href="index.php?page=home" style="color:white;">Tumpi</a>
                 <div class="nav-collapse collapse">
                     <ul class="nav">
                     {foreach key=key item=nav_element from=$navbar}
-                        <li id="{$key}"><a class="
-                            {if $page eq $key}
-                                 seleccionado
-                            {/if}
-                        " href="index.php{$nav_element.url}">{$nav_element.texto}</a></li>
+                        <li id="{$key}" class="{if $page eq $key} active {/if}"><a href="index.php{$nav_element.url}">{$nav_element.texto}</a></li>
                     {/foreach}
                     </ul>
                 </div>
