@@ -17,7 +17,7 @@
                     </p>
                     <br>
                     <p class=""><a href="https://play.google.com/store/apps/details?id=app.tumpi"><img alt="Android app on Google Play" style="position: inherit;height:45px;min-width:0px;min-height:0px;" src="https://developer.android.com/images/brand/es_app_rgb_wo_45.png" /></a></p>
-                    <p class="lead espaciado"><a href="index.php?reproductorAndroid">Aquí</a> puedes consultar el manual de la aplicación por si tienes algún problema. Si todavía tienes alguna duda contacta con nosotros: <a href="mailto:support@tumpi.net">support@tumpi.net</a></p>
+                    <p class="lead espaciado"><a href="index.php?page=reproductorAndroid">Aquí</a> puedes consultar el manual de la aplicación por si tienes algún problema. Si todavía tienes alguna duda contacta con nosotros: <a href="mailto:support@tumpi.net">support@tumpi.net</a></p>
                 </div>
             </div>
         </div>

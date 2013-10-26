@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2013-10-25 15:29:53
+<?php /* Smarty version Smarty-3.1.15, created on 2013-10-26 19:07:05
          compiled from "templates\home.php" */ ?>
 <?php /*%%SmartyHeaderCode:8405526a482acd0700-88629922%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'a5c6b4f579b041c3cf4ba3a2c6305462387ce1f3' => 
     array (
       0 => 'templates\\home.php',
-      1 => 1382714975,
+      1 => 1382814377,
       2 => 'file',
     ),
   ),
@@ -38,7 +38,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     </p>
                     <br>
                     <p class=""><a href="https://play.google.com/store/apps/details?id=app.tumpi"><img alt="Android app on Google Play" style="position: inherit;height:45px;min-width:0px;min-height:0px;" src="https://developer.android.com/images/brand/es_app_rgb_wo_45.png" /></a></p>
-                    <p class="lead espaciado"><a href="index.php?reproductorAndroid">Aquí</a> puedes consultar el manual de la aplicación por si tienes algún problema. Si todavía tienes alguna duda contacta con nosotros: <a href="mailto:support@tumpi.net">support@tumpi.net</a></p>
+                    <p class="lead espaciado"><a href="index.php?page=reproductorAndroid">Aquí</a> puedes consultar el manual de la aplicación por si tienes algún problema. Si todavía tienes alguna duda contacta con nosotros: <a href="mailto:support@tumpi.net">support@tumpi.net</a></p>
                 </div>
             </div>
         </div>
