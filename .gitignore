@@ -219,4 +219,4 @@ pip-log.txt
 ###########
 
 #Cache de smarty
-./libs/smarty/templates_c
+./libs/smarty/templates_c/
