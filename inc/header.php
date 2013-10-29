@@ -6,6 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
+		
+		{* Favicon *}
+		<link rel="shortcut icon" href="imgs/tumpi/favicon.ico">
+		
         <link href="libs/bootstrap/css/bootstrap.css" rel="stylesheet">
         <link href="libs/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
         <link href="inc/css/global.css" rel="stylesheet" type="text/css" media="screen">
@@ -42,3 +46,5 @@
         <script src="libs/bootstrap/js/bootstrap-typeahead.js"></script>
     </head>
     <body>
+		{* Inclusion del codigo de Google Analytics *}
+		<script src="inc/google/analyticstracking.js"></script>
