@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 		
-		{* Favicon *}
+		<?php /* Favicon */ ?>
 		<link rel="shortcut icon" href="imgs/tumpi/favicon.ico">
 		
         <link href="libs/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -17,16 +17,6 @@
         <link href="inc/css/prueba_less.css" rel="stylesheet" type="text/css">
         <link href="libs/lightbox/css/lightbox.css" rel="stylesheet" />
 
-        <style id="holderjs-style" type="text/css">
-        .holderjs-fluid
-        {
-            font-size:16px;
-            font-weight:bold;
-            text-align:center;
-            font-family:sans-serif;
-            margin:0;
-        }
-        </style>
         <!-- Esto es para tener Less del lado del cliente. Sirve por si pasara algo como remedio alternativo -->
         <!-- script src="libs/less/less-1.3.3.min.js"></script -->
 		
@@ -46,5 +36,7 @@
         <script src="libs/bootstrap/js/bootstrap-typeahead.js"></script>
     </head>
     <body>
-		{* Inclusion del codigo de Google Analytics *}
-		<script src="inc/google/analyticstracking.js"></script>
+	<?php
+		/* Inclusion del codigo de Google Analytics */ 
+		include("inc/google/analyticstracking.php"); 
+	?>
